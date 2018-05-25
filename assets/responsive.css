@@ -1,0 +1,112 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .btn {
+    padding: 10px 12px; }
+
+  .section-header .section-title {
+    font-size: 22px; }
+
+  #video-area .contents h1 {
+    font-size: 32px;
+    line-height: 48px; }
+
+  .contents h4 {
+    font-size: 22px;
+    line-height: 38px; }
+
+  .mainmenu-area .menu-button {
+    line-height: 46px; }
+
+  .item-boxes h4 {
+    font-size: 16px; }
+
+  #carousel-area .carousel-item .carousel-caption h1 {
+    font-size: 40px; }
+
+  #features .box-item .text h4 {
+    font-size: 12px; }
+
+  #features .box-item .icon {
+    width: 48px;
+    height: 48px;
+    margin: 5px 0; }
+
+  #features .box-item .icon i {
+    line-height: 48px; }
+
+  #features .content-left .text {
+    margin-right: 60px; }
+
+  #features .content-right .text {
+    margin-left: 60px; }
+
+  .subscribe-box input[type="text"] {
+    padding: 6px 10px; }
+
+  .pricing-table .pricing-details ul li {
+    font-size: 13px; }
+
+  #blog .blog-item-text h3 {
+    font-size: 14px; } }
+@media (max-width: 768px) {
+  .btn {
+    padding: 10px 12px; }
+
+  #hero-area .contents .btn {
+    margin: 0px 25px 15px 0px; }
+
+  #carousel-area .carousel-item .carousel-caption h1 {
+    font-size: 22px;
+    line-height: 32px; }
+
+  .section-header .section-title {
+    font-size: 22px; }
+
+  .contents h4 {
+    font-size: 18px;
+    line-height: 30px; }
+
+  .mainmenu-area .menu-button {
+    display: none; }
+
+  .menu-wrap {
+    padding: 10px; }
+
+  .icon-list a {
+    padding: 5px 0; }
+
+  .icon-list a::before {
+    top: 5px; }
+
+  .bg-faded {
+    background: #fff !important; }
+
+  #video-area .contents h1 {
+    font-size: 30px;
+    line-height: 48px; }
+
+  #features .content-right span {
+    float: none; }
+
+  #features .content-left span {
+    float: none; }
+
+  #features .box-item .icon {
+    margin: 12px 0; }
+
+  #features .box-item .text h4 {
+    font-size: 13px; }
+
+  #blog .blog-item-wrapper {
+    margin-bottom: 30px; }
+
+  .single-team {
+    margin-bottom: 30px; }
+
+  .table-left {
+    margin: 0px 0px; }
+
+  .counters .facts-item {
+    margin-bottom: 30px; } }
+@media (max-width: 576px) {
+  .about .contents {
+    border-right: none; } }
