@@ -8,5 +8,3 @@ fields:
 - type: text
   label: Archive Summary
   name: archive_summary
-pages:
-- home.md
