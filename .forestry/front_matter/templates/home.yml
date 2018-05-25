@@ -1,4 +1,10 @@
 ---
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: text
+  name: upcoming_exhibits_summary
+  label: Upcoming Exhibits Summary
+- type: text
+  name: archive_summary
+  label: archive_summary
