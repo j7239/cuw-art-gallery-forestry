@@ -9,4 +9,4 @@ fields:
   label: Archive Summary
   name: archive_summary
 pages:
-- home.md
+- index.md
