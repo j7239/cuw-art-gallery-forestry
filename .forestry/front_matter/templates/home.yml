@@ -1,6 +1,12 @@
 ---
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: text
+  label: Upcoming Exhibits Summary
+  name: upcoming_exhibits_summary
+- type: text
+  label: Archive Summary
+  name: archive_summary
 pages:
 - home.md
