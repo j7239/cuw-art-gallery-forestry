@@ -328,7 +328,7 @@ button:focus {
    3. Hero Area
    ========================================================================== */
 #hero-area {
-  background: url(../uploads/hero-area.jpg) fixed no-repeat;
+  background: url(../img/hero-area.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -365,7 +365,7 @@ button:focus {
     #hero-area .matterport .overlay {
       width: 100%;
       height: 100%;
-      background: url(../uploads/gallery.jpg);
+      background: url(../img/gallery.jpg);
       background-position: center;
       background-size: cover;
       position: absolute;
@@ -1067,7 +1067,7 @@ button:focus {
  12. Counter Section Style
  ========================================================================== */
 .counters {
-  background: url(../uploads/bg1.jpg) fixed;
+  background: url(../img/bg1.jpg) fixed;
   position: relative; }
   .counters .facts-item {
     text-align: center;
@@ -1529,3 +1529,5 @@ footer {
       color: #fff; }
       .post-meta ul li a:hover, .post-meta ul li a:focus {
         color: #005596; }
+
+/*# sourceMappingURL=main.css.map */
