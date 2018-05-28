@@ -22,5 +22,5 @@ social:
   facebook: https://www.facebook.com/CUWArtGallery/
   twitter: 
   linkedin:
-gems:
+plugins:
   - jekyll-menus
