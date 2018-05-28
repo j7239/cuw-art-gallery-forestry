@@ -1,35 +1,32 @@
-{%- assign default_paths = site.pages | map: "path" -%}
-{%- assign page_paths = site.main-nav_pages | default: default_paths -%}    
-<!-- Header Section Start -->
+{% comment %}
+	Displays the site's navigation using the jekyll-menus plugin
+{% endcomment %}
+
+{% assign url = page.url | remove:'index.html' %}
+
+ <!-- Header Section Start -->
     <header id="hero-area" data-stellar-background-ratio="0.5">
         <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top mainmenu-area">
             <div class="container">
-                <a class="navbar-brand wow fadeInDownBig" title="Concordia University Wisonsin" href="https://www.cuw.edu/"><img alt="Concordia University Wisconsin" src="{{"uploads/logo-black.svg" | relative_url}}" /></a>
+                <a class="navbar-brand wow fadeInDownBig" title="Concordia University Wisonsin" href="https://www.cuw.edu/"><img alt="Concordia University Wisconsin" src="img/logo-black.svg" /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <i class="lnr lnr-menu"></i> </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
                     <ul class="navbar-nav">
-                        <!-- Loops through selected main-nav pages and checks if current page -->
-                        {%- for path in page_paths -%}
-                        {%- assign this_page = site.pages | where: "path", path | first -%}
-                        {%- if this_page.title == page.title -%}
-                            {%- assign current_page = "active" -%}
-                        {%- else -%}
-                            {%- assign current_page = "" -%}
-                        {%- endif -%}
-                        {%- if this_page.title -%}
-                        <li class="nav-item wow fadeInDownBig {{current_page}}"> <a class="nav-link page-scroll" href="{{ this_page.url | relative_url }}">{{this_page.title}}</a></li>
-                        {%- endif -%}
-                        {%- endfor -%}
+                        {% for link in site.menus.navigation %}
+                            <li class="nav-item wow fadeInDownBig"> <a class="nav-link page-scroll {% if page.title == {{ link.title }} %} "active" {% endif %}" href="{{ link.url | absolute_url }}">{{ link.title }}</a></li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>
         </nav>
-        <!-- Page Banner -->
-        {%- for banner in site.banners -%}
-            {%- if banner.title == page.banner -%}
-                {{banner.content}}
-            {%- endif -%}
-        {%- endfor -%}
-        <!-- Page End -->
+        <div class="matterport container-fluid">
+            <div class="row h-100 d-flex align-items-center justify-content-center position-relative"> <span tabindex="1" class="close lnr lnr-cross-circle"></span>
+                <iframe id="mp-embed" tabindex="-1" src="https://my.matterport.com/show/?m=eiBDSQKiyjx&play=1&title=0" allowfullscreen></iframe>
+                <div class="overlay text-hide"></div>
+                <div class="contents text-center wow fadeInDownBig">
+                    <h1>CUW ART GALLERY</h1> <a href="#" class="btn btn-border">Virtual Tour <span class="lnr lnr-eye"></span></a>
+                    <div class="load">loading virtual tour <span class="loader lnr lnr-sync"></span></div>
+                </div>
+            </div>
+        </div>
     </header>
-    <!-- Header Section End -->

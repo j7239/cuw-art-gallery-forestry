@@ -1,9 +1,7 @@
----
-title: CUW Art Gallery
-timezone: America/Chicago
-description: The CUW Art Gallery was founded with the hope of educating, challenging,
-  and inspiring the students, faculty, staff, and community of CUW as well as the
-  public through exposure to the vast world of art.
+title: Belkirk College of Engineering
+short_title: Belkirk
+description: Belkirk Demo Site for Forestry.io
+baseurl:
 permalink: "/:path/"
 defaults:
   - scope:
@@ -16,11 +14,20 @@ defaults:
     values:
       layout: post
 collections:
+  people:
+    output: true
+    permalink: "/about/:path/"
   posts:
     output: true
-social:
-  facebook: https://www.facebook.com/CUWArtGallery/
-  twitter: 
-  linkedin:
-plugins:
+  projects:
+    output: true
+    permalink: "/projects/:path/"
+# tag_page_layout: tag_page
+# tag_page_dir: tag
+jekyll-archives:
+  enabled: all
+  layout: "archive"
+gems:
   - jekyll-menus
+  - jekyll-feed
+  - jekyll-archives
