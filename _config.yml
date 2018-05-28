@@ -1,0 +1,26 @@
+---
+title: CUW Art Gallery
+timezone: America/Chicago
+description: The CUW Art Gallery was founded with the hope of educating, challenging,
+  and inspiring the students, faculty, staff, and community of CUW as well as the
+  public through exposure to the vast world of art.
+permalink: "/:path/"
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+collections:
+  posts:
+    output: true
+social:
+  facebook: https://www.facebook.com/CUWArtGallery/
+  twitter: 
+  linkedin:
+gems:
+  - jekyll-menus
