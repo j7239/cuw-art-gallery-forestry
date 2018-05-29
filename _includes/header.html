@@ -13,6 +13,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
                     <ul class="navbar-nav">
                         {% for link in site.menus.main-nav %}
+                        {{ link.title }}{{ page.title }}
                             <li class="nav-item wow fadeInDownBig"> <a class="nav-link page-scroll {% if page.title == {{ link.title }} %} "active" {% endif %}" href="{{ link.url | absolute_url }}">{{ link.title }}</a></li>
                         {% endfor %}
                     </ul>
