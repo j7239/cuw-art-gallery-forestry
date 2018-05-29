@@ -12,3 +12,4 @@ fields:
   name: include_select_banner
   label: Include Select Banner
   hidden: true
+  template: select-banner
