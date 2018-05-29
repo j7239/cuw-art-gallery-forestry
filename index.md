@@ -27,6 +27,6 @@ hero_button:
 show_news: true
 menu:
   main-nav:
-    identifier: test
+    identifier: home
     weight: 1
 ---
