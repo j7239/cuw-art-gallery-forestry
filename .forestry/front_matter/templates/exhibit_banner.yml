@@ -3,6 +3,11 @@ hide_body: false
 is_partial: true
 fields:
 - type: text
+  label: Include File
+  name: include_file
+  hidden: true
+  default: banner_exhibit.html
+- type: text
   name: title
   label: Title
   config:
