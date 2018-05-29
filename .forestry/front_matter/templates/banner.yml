@@ -8,5 +8,4 @@ fields:
   description: Select page banner
   hidden: true
   template_types:
-  - options_banner_exhibit
   - home_banner
