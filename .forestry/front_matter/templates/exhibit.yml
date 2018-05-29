@@ -18,3 +18,8 @@ fields:
   config:
     maxSize: '1'
   description: Use tinyjpg.com or tinypng.com to optimize your image. 1mb limit
+- type: blocks
+  template_types:
+  - options_banner_exhibit
+  label: Banner
+  name: banner
