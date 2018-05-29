@@ -1,0 +1,11 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: blocks
+  template_types:
+  - partial_banner_home
+  label: Banner
+  name: banner
+  description: Select banner
+  hidden: false
