@@ -26,7 +26,7 @@ hero_button:
   href: "/about"
 show_news: true
 menu:
-  main_nav:
+  navigation:
     identifier: _index
     url: "/"
     weight: 1
