@@ -2,14 +2,14 @@
 hide_body: true
 is_partial: false
 fields:
+- type: include
+  name: include_select_banner
+  label: Include Select Banner
+  hidden: true
+  template: select-banner
 - type: text
   label: Upcoming Exhibits Summary
   name: upcoming_exhibits_summary
 - type: text
   label: Archive Summary
   name: archive_summary
-- type: include
-  name: include_select_banner
-  label: Include Select Banner
-  hidden: true
-  template: select-banner
