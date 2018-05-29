@@ -2,6 +2,14 @@
 hide_body: true
 is_partial: false
 fields:
+- type: select
+  config:
+    source:
+      type: datafiles
+      file: _data-banners-yml
+      path: banners
+  label: Banner
+  name: banner
 - type: text
   label: Upcoming Exhibits Summary
   name: upcoming_exhibits_summary
