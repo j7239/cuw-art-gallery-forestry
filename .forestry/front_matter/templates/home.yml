@@ -10,6 +10,7 @@ fields:
       path: banners
   label: Banner
   name: banner
+  hidden: true
 - type: text
   label: Upcoming Exhibits Summary
   name: upcoming_exhibits_summary
