@@ -19,5 +19,7 @@
                 </div>
             </div>
         </nav>
-        
+        {% for item in page.banner %}
+            {% include {{ item.include_file }} %}
+        {% endfor %}
     </header>
