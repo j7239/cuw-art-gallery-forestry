@@ -26,6 +26,11 @@ hero_button:
   href: "/about"
 show_news: true
 show_staff: false
+banner:
+- template: partial_banner_home
+  include_file: banner_home
+upcoming_exhibits_summary: ''
+archive_summary: ''
 menu:
   main-nav:
     identifier: home
