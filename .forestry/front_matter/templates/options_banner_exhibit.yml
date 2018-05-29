@@ -1,0 +1,18 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: datetime
+  name: opening_date
+  label: Opening Date
+  config:
+    required: true
+- type: tag_list
+  name: media_types
+  label: Media Types
+  description: What type of media will be displayed?
