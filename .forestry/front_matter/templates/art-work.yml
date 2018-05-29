@@ -1,0 +1,28 @@
+---
+hide_body: true
+is_partial: false
+fields:
+- type: file
+  name: image
+  label: Image
+  config:
+    maxSize: '1'
+  description: Use tinyjpg.com or tinypng.com to optimize your image. 1mb limit
+- type: tag_list
+  label: Media Type
+  name: media_type
+  description: What type of media is this?
+- type: text
+  name: artist
+  label: Artist
+  description: First and Last Name
+  config:
+    required: true
+- type: number
+  name: year
+  label: Year
+  description: 'The year the artwork was completed. Example: 2018'
+  config:
+    min: '2010'
+    max: '2050'
+    required: true
