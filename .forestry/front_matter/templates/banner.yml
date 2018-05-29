@@ -1,0 +1,11 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: blocks
+  name: banner
+  label: Banner
+  description: Select page banner
+  hidden: true
+  template_types:
+  - home_banner
