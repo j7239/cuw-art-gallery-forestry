@@ -8,3 +8,7 @@ fields:
 - type: text
   label: Archive Summary
   name: archive_summary
+- type: include
+  name: include_select_banner
+  label: Include Select Banner
+  hidden: true
