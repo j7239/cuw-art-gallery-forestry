@@ -1,5 +1,2 @@
 ---
-navigation:
- - title: Test
-   url: cuw.edu
-   identifier: test
+main-nav:
