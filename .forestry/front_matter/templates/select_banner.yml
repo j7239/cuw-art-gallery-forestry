@@ -7,6 +7,7 @@ fields:
   label: Banner
   description: ''
   template_types:
+  - banner-home
   - banner-about
-  - banner-exhibit
   - banner-studentwork
+  - banner-exhibit
