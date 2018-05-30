@@ -22,6 +22,9 @@ about: Over 30 years ago, the CUW Art Gallery was founded with the hope of educa
   meanings of art objects and to suggest new ones to its patrons. We aspire to excite
   the imagination, and present opportunities for our patrons to look into the study
   of art and culture.
+banner:
+- template: banner-about
+  include_file: banner_about.html
 ---
 
 The Belkirk College of Engineering (Belkirk) specializes in innovative research to support the healthcare and biotech industries. We are interested in advancing research in areas that are pressing and relevant to the health and biotech industries and regularly develop new projects and collaborations to accomplish this goal. We are currently engaged in a variety of ongoing projects within the areas of mental health, data analysis, knowledge translation, and cluster research.
