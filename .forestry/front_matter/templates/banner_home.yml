@@ -6,4 +6,4 @@ fields:
   name: include_file
   label: Include File
   hidden: true
-  default: banner_home.html
+  default: banner_studentwork.html
