@@ -1,0 +1,9 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: include_file
+  label: Include File
+  hidden: true
+  default: banner_about.html
