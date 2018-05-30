@@ -17,3 +17,5 @@ fields:
   label: About
   config:
     required: true
+pages:
+- about.md
