@@ -4,6 +4,9 @@ is_partial: true
 fields:
 - type: blocks
   template_types:
+  - banner-studentwork
+  - banner-exhibit
+  - banner-about
   - banner_home
   label: Banner
   name: banner
