@@ -3,12 +3,11 @@ hide_body: false
 is_partial: true
 fields:
 - type: blocks
-  template_types:
-  - banner-studentwork
-  - banner-exhibit
-  - banner-about
-  - banner_home
-  label: Banner
   name: banner
-  description: Select banner
-  hidden: false
+  label: Banner
+  description: ''
+  template_types:
+  - partial_banner_home
+  - banner-about
+  - banner-exhibit
+  - banner-studentwork
