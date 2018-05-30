@@ -7,9 +7,13 @@ fields:
   label: Include Select Banner
   hidden: false
   template: select-banner
-- type: text
-  label: Upcoming Exhibits Summary
-  name: upcoming_exhibits_summary
-- type: text
-  label: Archive Summary
-  name: archive_summary
+- type: textarea
+  name: gallery_hours
+  label: Gallery Hours
+  config:
+    required: true
+- type: textarea
+  name: about
+  label: About
+  config:
+    required: true
