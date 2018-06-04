@@ -13,5 +13,11 @@ fields:
   description: Brief introduction to the artist
   config:
     required: true
+- type: file
+  label: Head Shot
+  name: head_shot
+  description: Image of artist.
+  config:
+    maxSize: '1'
 pages:
 - _artists/jordan-kelly.html
