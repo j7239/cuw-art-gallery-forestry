@@ -17,6 +17,8 @@ collections:
   exhibits:
     output: true
     permalink: "/exhibit/:path/"
+  artists:
+    output: true
 # tag_page_layout: tag_page
 # tag_page_dir: tag
 jekyll-archives:
