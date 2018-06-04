@@ -4,7 +4,7 @@ is_partial: false
 fields:
 - type: blocks
   template_types:
-  - select-banner
+  - banner-exhibit
   label: Banner
   name: banner
 - type: tag_list
