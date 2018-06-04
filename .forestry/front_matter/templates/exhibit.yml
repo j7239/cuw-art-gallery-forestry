@@ -22,5 +22,13 @@ fields:
   config:
     maxSize: '1'
   description: Use tinyjpg.com or tinypng.com to optimize your image. 1mb limit
+- type: select
+  config:
+    source:
+      type: pages
+      section: artists
+  label: Artists
+  name: artists
+  description: Select the featured artists.
 pages:
 - _exhibits/2018-senior-exhibition.html
