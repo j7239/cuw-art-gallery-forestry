@@ -23,3 +23,5 @@ fields:
   config:
     maxSize: '1'
   description: Use tinyjpg.com or tinypng.com to optimize your image. 1mb limit
+pages:
+- _exhibits/2018-senior-exhibiton.html
