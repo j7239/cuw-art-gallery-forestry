@@ -13,3 +13,5 @@ fields:
   description: Brief introduction to the artist
   config:
     required: true
+pages:
+- _artists/jordan-kelly.html
