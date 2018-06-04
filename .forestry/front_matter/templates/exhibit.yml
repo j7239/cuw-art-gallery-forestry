@@ -2,6 +2,10 @@
 hide_body: false
 is_partial: false
 fields:
+- type: include
+  name: select_banner
+  label: Select Banner
+  template: select-banner
 - type: tag_list
   label: Media Types
   name: media_types
@@ -18,7 +22,3 @@ fields:
   config:
     maxSize: '1'
   description: Use tinyjpg.com or tinypng.com to optimize your image. 1mb limit
-- type: include
-  name: select_banner
-  label: Select Banner
-  template: select-banner
