@@ -1,0 +1,15 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Name
+  name: name
+  config:
+    required: true
+- type: textarea
+  label: Info
+  name: info
+  description: Brief introduction to the artist
+  config:
+    required: true
