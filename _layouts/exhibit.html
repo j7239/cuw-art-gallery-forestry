@@ -94,11 +94,14 @@ layout: default
                     <div class="col-md-10">
                         <div class="touch-slider owl-carousel artists-carousel owl-theme">
                             {% for items in page.artists %}
+                              {% assign this-artist = null %}
                               {% for item in items %}
-                                {{item}}{{":"}}
+                                {% this-artist = item %}
                               {% endfor %}
-                              {% for artist in site.artists %}    
-                                  {{artist.relative_path}}
+                              {% for artist in site.artists %}  
+                                  {% if this-artist == relative_path %}
+                                    {{relative_path}}
+                                  {% endif %}
                               {% endfor %}
                             {% endfor %}
                             <div class="testimonial-item"> <img src="img/testimonial/customer1.png" alt="Client Testimonoal" />
