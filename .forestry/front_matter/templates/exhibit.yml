@@ -16,6 +16,8 @@ fields:
 - type: datetime
   name: opening_date
   label: Opening Date
+  config:
+    display_utc: false
 - type: file
   label: Featured Image
   name: featured_image
