@@ -17,6 +17,7 @@ collections:
   exhibits:
     output: true
     permalink: "/exhibit/:path/"
+    layout: exhibit
   artists:
     output: true
 # tag_page_layout: tag_page
