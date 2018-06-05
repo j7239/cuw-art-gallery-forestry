@@ -95,10 +95,11 @@ layout: default
                         <div class="touch-slider owl-carousel artists-carousel owl-theme">
                             {% for items in page.artists %}
                               {% for item in items %}
-                                {% assign this-artist = item %}
+                                {% assign this-artist = {{item}} %}
+                                {{"item:"}}{{item}}
                                 {% for artist in site.artists %}  
                                   {% if this-artist == relative_path %}
-                                    {{relative_path}}
+                                    {{"relative_path:"}}{{relative_path}}
                                   {% endif %}
                                 {% endfor %}
                               {% endfor %}
