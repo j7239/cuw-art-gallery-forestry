@@ -83,9 +83,10 @@ layout: default
         </div>
         <!-- Blog Section End  -->
         {% if page.artists.size > 0 %}
-        test
         {% for items in page.artists %}
-            {{item}}
+          {% for item in items %}
+            {{ item }}
+          {% endfor %}
         {% endfor %}
         <!-- testimonial Section Start -->
         <div id="testimonial" class="section">
