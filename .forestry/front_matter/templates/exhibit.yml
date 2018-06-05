@@ -37,3 +37,5 @@ fields:
         section: artists
     label: Artist
     description: Choose Artist
+pages:
+- _exhibits/2018-senior-exhibition.md
