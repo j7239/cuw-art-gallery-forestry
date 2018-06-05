@@ -94,7 +94,7 @@ layout: default
                     <div class="col-md-10">
                         <div class="touch-slider owl-carousel artists-carousel owl-theme">
                             {% for items in page.artists %}
-                              {% assign this-artist = null %}
+                              {% assign this-artist = "" %}
                               {% for item in items %}
                                 {% this-artist = item %}
                               {% endfor %}
