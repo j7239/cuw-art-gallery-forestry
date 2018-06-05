@@ -99,8 +99,8 @@ layout: default
                                 {% artist = item %}
                                 {{artist}}{{":"}}
                               {% endfor %}
-                              {% for items in site.artists %}    
-                                  {{item.relative_path}}
+                              {% for artist in site.artists %}    
+                                  {{artist.relative_path}}
                               {% endfor %}
                             {% endfor %}
                             <div class="testimonial-item"> <img src="img/testimonial/customer1.png" alt="Client Testimonoal" />
