@@ -19,3 +19,5 @@ fields:
   description: Image of artist.
   config:
     maxSize: '1'
+pages:
+- _artists/jordan-kelly.md
