@@ -98,7 +98,7 @@ layout: default
                                 {% assign this-artist = {{item}} %}
                                 {{"item:"}}{{item}}
                                 {% for artist in site.artists %}  
-                                  {% if this-artist == relative_path %}
+                                  {% if this-artist == artist{{relative_path}} %}
                                     {{"relative_path:"}}{{relative_path}}
                                   {% endif %}
                                 {% endfor %}
