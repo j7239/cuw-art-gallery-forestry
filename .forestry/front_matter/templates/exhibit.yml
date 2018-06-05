@@ -17,7 +17,7 @@ fields:
   name: opening_date
   label: Opening Date
   config:
-    display_utc: false
+    display_utc: true
 - type: file
   label: Featured Image
   name: featured_image
