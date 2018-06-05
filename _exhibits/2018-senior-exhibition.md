@@ -1,6 +1,6 @@
 ---
 title: 2018 Senior Exhibition
-date: 2018-06-04 22:34:17 -0500
+date: 2018-06-05 03:34:17 +0000
 banner:
 - template: banner-exhibit
   include_file: banner_exhibit.html
@@ -8,10 +8,10 @@ media_types:
 - Graphic Design
 - Photography
 subhead: The Positive in Negative Space
-opening_date: 2018-05-03 19:00:00 -0500
+opening_date: 2018-05-04 00:00:00 +0000
 featured_image: "/uploads/2018/06/04/senior-logo.png"
 artists:
-- artist: _artists/jordan-kelly.html
+- artist: _artists/jordan-kelly.md
 ---
 The 2018 graduating class of CUW Art Majors are putting their work on display and invite you to the grand opening of their Senior Exhibition. Their works include graphic design, illustration, animation, photography, and architecture. There will opportunities to meet with each student and snacks to go along with the celebration of the progress these students have made.
 
