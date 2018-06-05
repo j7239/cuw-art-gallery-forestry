@@ -9,7 +9,7 @@ media_types:
 - Photography
 subhead: The Positive in Negative Space
 opening_date: 2018-05-03 19:00:00 -0500
-featured_image: "/uploads/2018/06/04/headshot_jordan-kelly (1).jpg"
+featured_image: "/uploads/2018/06/04/senior-logo.png"
 artists:
 - artist: _artists/jordan-kelly.html
 ---
