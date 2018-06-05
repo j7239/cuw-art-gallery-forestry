@@ -97,12 +97,12 @@ layout: default
                               {% for item in items %}
                                 {% assign this-artist = {{item}} %}
                                 {% for artist in site.artists %}
-                                  {{this-artist}}:{{"artist"}}{{artist.relative_path}}
-                                  {% if {{this-artist}} == {{"artist"}}{{artist.relative_path}} %}
+                                  {% assign artist-page = {{"artist"}}{{artist.relative_path}} %}
+                                  {% if {{this-artist}} == {{artist-page}} %}
                                     <div class="testimonial-item"> <img src="{{artist.head_shot | absolute_url}}" alt="Client Testimonoal" />
                                         <div class="testimonial-text">
                                             {{artist.info}}
-                                            <h3>{{artist.name}}</h3> 
+                                            <h3>{{artist.name}}</h3>
                                         </div>
                                     </div>
                                   {% endif %}
