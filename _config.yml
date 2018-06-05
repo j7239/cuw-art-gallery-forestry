@@ -13,11 +13,15 @@ defaults:
       type: posts
     values:
       layout: post
+  - scope:
+      path: ""
+      type: exhibits
+    values:
+      layout: exhibit
 collections:
   exhibits:
     output: true
     permalink: "/exhibit/:path/"
-    layout: exhibit
   artists:
     output: true
 # tag_page_layout: tag_page
