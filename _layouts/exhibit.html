@@ -96,11 +96,9 @@ layout: default
                             {% for items in page.artists %}
                               {% for item in items %}
                                 {% assign this-artist = {{item}} %}
-                                {{"item:"}}{{this-artist}}
-                                {% for artist in site.artists %}  
-                                    {{"artist"}}{{artist.relative_path}}
+                                {% for artist in site.artists %}
                                   {% if this-artist == {{"artist"}}{{artist.relative_path}} %}
-                                    {{"relative_path:"}}{{relative_path}}
+                                    {{artist.relative_path}}
                                   {% endif %}
                                 {% endfor %}
                               {% endfor %}
