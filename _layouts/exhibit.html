@@ -99,14 +99,14 @@ layout: default
                                 {%- for artist in site.artists -%}
                                   {%- assign artist-path = {{artist.path | prepend: "artist" }} -%}
                                     {{this-artist}}:{{artist-path}}
-                                  {%- if this-artist == artist-path -%}
+                                  {% if this-artist == artist-path %}
                                     <div class="testimonial-item"> <img src="{{artist.head_shot | absolute_url}}" alt="{{artist.name}}" />
                                         <div class="testimonial-text">
                                             {{artist.info}}
                                             <h3>{{artist.name}}</h3>
                                         </div>
                                     </div>
-                                  {%- endif -%}
+                                  {% endif %}
                                 {%- endfor -%}
                               {%- endfor -%}
                             {%- endfor -%}
