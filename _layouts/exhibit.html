@@ -95,11 +95,9 @@ layout: default
                         <div class="touch-slider owl-carousel artists-carousel owl-theme">
                             {%- for items in page.artists -%}
                               {%- for item in items -%}
-                                {%- assign this-artist = {{item}} -%}
                                 {%- for artist in site.artists -%}
-                                  {%- assign artist-path = {{artist.path}} -%}
-                                    {{this-artist}}:{{artist-path}}
-                                  {% if this-artist contains artist-path %}
+                                    {{item}}:{{artist.path}}
+                                  {% if item contains artist.path %}
                                     <div class="testimonial-item"> <img src="{{artist.head_shot | absolute_url}}" alt="{{artist.name}}" />
                                         <div class="testimonial-text">
                                             {{artist.info}}
