@@ -97,7 +97,7 @@ layout: default
                               {%- for item in items -%}
                                 {%- for artist in site.artists -%}
                                     {{item}}:{{artist.path}}
-                                  {% if item contains artist.path %}
+                                  {% if artist.path contains item %}
                                     <div class="testimonial-item"> <img src="{{artist.head_shot | absolute_url}}" alt="{{artist.name}}" />
                                         <div class="testimonial-text">
                                             {{artist.info}}
