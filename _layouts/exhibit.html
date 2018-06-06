@@ -99,9 +99,10 @@ layout: default
                                   {% assign a = item %}
                                   {% assign b = artist.path %}
                                   {% if a contains b %}
-                                    <div class="testimonial-item"> <img src="{{artist.head_shot | absolute_url}}" alt="{{artist.name}}" />
+                                    <div class="testimonial-item"> 
+                                        <span class="image"><img src="{{artist.head_shot | absolute_url}}" alt="{{artist.name}}" /></span>
                                         <div class="testimonial-text">
-                                            {{artist.info}}
+                                            <p>{{artist.info}}</p>
                                             <h3>{{artist.name}}</h3>
                                         </div>
                                     </div>
